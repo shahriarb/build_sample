@@ -1,0 +1,8 @@
+services:  
+  hello:
+    git_url: http://github.com/shahriarb/build_sample.git
+    git_branch: master
+    ports:
+      - container: 8000
+        http: 80
+        https: 443
