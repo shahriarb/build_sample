@@ -1,7 +1,9 @@
 services:  
   hello:
     git_url: http://github.com/shahriarb/build_sample.git
-    git_branch: master
+    git_branch: habitus
+    use_habitus: true
+    use_habitus_step: deployment
     ports:
       - container: 8000
         http: 80
