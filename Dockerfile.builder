@@ -1,4 +1,5 @@
 FROM golang:1.5
+MAINTAINER Shahriar  ë Boroujerdin
 
 RUN mkdir -p /go/src/github.com/shahriarb
 ADD . /go/src/github.com/shahriarb/build_sample
