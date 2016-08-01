@@ -6,6 +6,6 @@ RUN mkdir -p /app
 WORKDIR /app
 
 #copy the source files
-COPY ./build_sample /app
+COPY ./ha_build_sample /app
 
-CMD ["/app/build_sample"]
+CMD ["/app/ha_build_sample"]

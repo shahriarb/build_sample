@@ -5,7 +5,7 @@ build:
       name: builder
       dockerfile: Dockerfile.builder
       artifacts:
-        - /go/src/github.com/shahriarb/build_sample/build_sample
+        - /go/src/github.com/shahriarb/build_sample/ha_build_sample
     deployment:
         name: deployer
         dockerfile: Dockerfile.deployment
